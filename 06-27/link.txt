@@ -1,0 +1,23 @@
+vimtutor, :h, gtypist,
+
+http://is.gd/lMt3GA
+
+- Stack Overflow:
+<http://stackoverflow.com/questions/3878692/aliasing-a-command-in-vim>;
+CommandAlias - Make aliases to vim command : vim online:
+<http://www.vim.org/scripts/script.php?script_id=4250>;
+cmdalias.vim - Create aliases for Vim commands. : vim online:
+<http://www.vim.org/script.php?script_id=746>;
+vim-scripts/cmdalias.vim · GitHub: (2 more messages)
+
+http://www.dgplug.org/irclogs/kushal_vi_04072008.log
+http://www.dgplug.org/irclogs/kushal_vi_05072008.log
+
+http://kushaldas.in/tmp/vimrc
+
+http://www.dgplug.org/irclogs/rishi_1st_class.log
+
+http://www.dgplug.org/irclogs/2010/2010-06-26_kushal_shell_commands_review.log
+http://www.dgplug.org/irclogs/2011/anurag_1st_05072011.log
+
+http://en.wikipedia.org/wiki/Cowsay

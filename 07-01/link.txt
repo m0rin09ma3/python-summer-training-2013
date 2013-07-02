@@ -1,0 +1,11 @@
+prerequisite:
+python-psutil, python-six
+
+http://www.vogella.com/articles/Git/article.html#bareremotes_definition
+
+https://github.com/rfk/playitagainsam.git
+
+http://www.dgplug.org/irclogs/2013/git2.log
+
+http://www.vogella.com/articles/Git/article.html
+
