@@ -1,0 +1,5 @@
+http://stackoverflow.com/questions/2816369/git-push-error-remote-rejected-master-master-branch-is-currently-checked
+
+http://paste.fedoraproject.org/21794/37244773/
+
+
