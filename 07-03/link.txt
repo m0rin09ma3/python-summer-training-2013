@@ -1,0 +1,4 @@
+www.vogella.com/articles/Git/article.html
+
+http://stackoverflow.com/questions/5283262/what-is-a-git-work-tree-why-have-i-never-needed-to-set-this-as-an-env-var-why
+
