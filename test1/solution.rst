@@ -1,3 +1,4 @@
+=================================
 Changed the title of the message
 =================================
 
@@ -11,4 +12,10 @@ Run the above problem like::
 
 We made one more change in this example.
 
+*test*
+**test**
+``test``
 
+:emphasis:`test`
+:strong:`test`
+:literal:`test`
