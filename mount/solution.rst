@@ -19,7 +19,7 @@ A link to the `source code`_.
 
   Imports modules
 
-* line 5-21
+* line 5-45
 
   function 'main'
 
@@ -39,10 +39,19 @@ A link to the `source code`_.
 
     try block to capture exception when open the file
 
-  - line 16-17
+  - line 16-18
 
-    output file contents to STDOUT and close the file object
+    read lines from the file and store them into a list called 'lines'.
+    And close the file object
 
-* line 23-24
+  - line 20-24
+
+    find and remove a line contains 'rootfs' string
+
+  - line 26-41
+
+    format each lines to match with 'mount' command output
+
+* line 47-48
 
   check top-level script environment and return exit status
