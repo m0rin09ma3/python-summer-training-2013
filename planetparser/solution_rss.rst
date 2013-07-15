@@ -47,9 +47,6 @@ In the main function, retrieve data from URL and store them into a string.
     # fetch data
     s_url = 'http://planet.fedoraproject.org'
 
-    # fetch data
-    s_url = 'http://planet.fedoraproject.org'
-
     f = requests.get(s_url)
     html_doc = f.text
 
