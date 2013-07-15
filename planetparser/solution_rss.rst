@@ -1,5 +1,5 @@
-planetparser
-=============
+planetparser_rss
+=================
 
 Prerequisite
 -------------
