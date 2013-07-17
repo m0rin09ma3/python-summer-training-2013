@@ -14,7 +14,7 @@ Sample output:
 
 .. code-block::
 
-    ['root', 'm0rin09ma3', 'git']
+    ['root', 'm0rin09ma3']
 
 Explanation
 ------------
@@ -27,5 +27,10 @@ In the main function, use regular expression to filter out users who has /bin/fa
      #print all_user
 
      notvalid = re.compile('.*/(nologin|false)')
-     print [user.pw_name for user in all_user if not notvalid.match(user.pw_s    hell)]
+     daemon = re.compile('.*daemon', re.IGNORECASE)
+     print [user.pw_name for user in all_user if \
+             (not notvalid.match(user.pw_shell)) and \
+             (not daemon.match(user.pw_gecos))]
+     #print [user.pw_name for user in all_user if not notvalid.match(user.pw_    shell)]
+     #print [user.pw_name for user in all_user if not daemon.match(user.pw_ge    cos)]
 

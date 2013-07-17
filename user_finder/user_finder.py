@@ -13,7 +13,12 @@ def main():
     #print all_user
 
     notvalid = re.compile('.*/(nologin|false)')
-    print [user.pw_name for user in all_user if not notvalid.match(user.pw_shell)]
+    daemon = re.compile('.*daemon', re.IGNORECASE)
+    print [user.pw_name for user in all_user if \
+            (not notvalid.match(user.pw_shell)) and \
+            (not daemon.match(user.pw_gecos))]
+    #print [user.pw_name for user in all_user if not notvalid.match(user.pw_shell)]
+    #print [user.pw_name for user in all_user if not daemon.match(user.pw_gecos)]
 
     return 0
 
