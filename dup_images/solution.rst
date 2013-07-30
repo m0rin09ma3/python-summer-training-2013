@@ -84,7 +84,7 @@ Parsing command line arguments. Imported *argparse* module.
 
         return args
 
-Find JPEG image file from valid directory and return it. Imported *os* module.
+Find JPEG image file from valid directory and return it. Imported *os*, *glob* modules.
 
 .. code-block:: python
 
