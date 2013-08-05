@@ -1,0 +1,30 @@
+[19:03:00] [## Class Started at Mon Jun 24 19:03:00 2013 ##]
+[19:03:00] <sayan> startclass
+[19:03:09] <kushal>    ROLL CALL
+[19:03:11] <Zubin> Bodhiswattwa Tewari
+[19:03:18] <shantanu> Shantanu Sarkar
+[19:03:19] <avik> Avik Ghosh 
+[19:03:20] <tenstormavi> Avinash Kumar Dasoundhi
+[19:03:20] <piotrektt> Piotr Bednarek
+[19:03:22] <tutum> kushal,todat I am online through my mobile phone as my home net connection is down..if you give any exercises during the session I won't be able to show the output to you
+[19:03:23] <rahulch> Rahul Chowdhury
+[19:03:24] <Armageddon> Elijah
+[19:03:25] <Christina> Christina Beemer
+[19:03:27] <nitesh> nitesh kumar 
+[19:03:28] <arin> Arin Ghosh 
+[19:03:30] <siddhant> siddhant sengar
+[19:03:33] <rashmi> Rashmi
+[19:03:36] <purva> purva 
+[19:03:36] <tutum> pritha Ganguly
+[19:03:36] <tanvi> tanvi dutta 
+[19:03:37] <satarupa> Satarupa Sinha 
+[19:03:38] <irenebmy> Irene 
+[19:03:38] <suman> suman roy
+[19:03:38] <prikotiyal> Priyanka Kotiyal
+[19:03:41] <anisha> Anisha
+[19:03:44] <iam_sudip> sudip maji
+[19:03:47] <zishan> Sheesh Mohsin
+[19:03:49] <korak> korak ghosh
+[19:03:50] <rahulmishra> Rahul Mishra
+[19:03:52] <shalini> Shalini Roy
+[19:03:58] <bidisha> Bidisha Mukherjee

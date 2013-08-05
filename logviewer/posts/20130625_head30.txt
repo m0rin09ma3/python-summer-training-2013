@@ -1,0 +1,30 @@
+[18:36:23] [## Class Started at Tue Jun 25 18:36:23 2013 ##]
+[18:36:23] <sayan> startclass
+[18:36:37] <mac1733> Terry Mackin
+[18:37:23] <kushal> cool
+[18:37:46] <kushal> who all never read the links given yesterday ?
+[18:37:58] <gr8atuin> I didn't
+[18:38:07] <gr8atuin> But don't delay on my account
+[18:38:32] <kushal> anyone else ?
+[18:39:14] <nilanjit> I studied. but not all of them.
+[18:39:31] <elita15> elita lobo
+[18:39:46] <kushal> questions ?
+[18:39:51] <shantanu> !
+[18:39:54] <zishan> !
+[18:39:59] <kushal> shantanu, ask
+[18:40:03] <Zubin> !
+[18:40:07] <prikotiyal> !
+[18:40:11] <tenstormavi> !
+[18:40:18] <tutum> !
+[18:40:19] <shantanu> kushal, please explain me about grep.
+[18:40:31] <lakshya> !
+[18:40:36] <shantanu> <EOF>
+[18:40:37] <purva> !
+[18:40:55] <fewcha> shantanu: do you know about the 'man' command?
+[18:41:01] <kushal> shantanu, http://www.uccs.edu/~ahitchco/grep/
+[18:41:07] <Christina> !
+[18:41:14] <kushal> Zubin, zishan ask
+[18:41:28] <shantanu> fewcha, yes, it is used to see manuals
+[18:41:47] <pratikkumar> !
+[18:41:51] <fewcha> shantanu: yes then doing 'man grep' on the terminal would be the best :)
+[18:42:18] <kushal> shantanu, I also passed you a link to read
