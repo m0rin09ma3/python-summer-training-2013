@@ -3,6 +3,9 @@
 {% block title %}List{% endblock %}
 
 {% block body %}
-{{ data }}
+    {% for each_data in data %}
+        {{ each_data }}
+        <br/>
+    {% endfor %}
 {% endblock %}
 
