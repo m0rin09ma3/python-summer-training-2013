@@ -23,4 +23,4 @@ def list(json):
 
 if __name__ == '__main__':
     APP.debug = True
-    APP.run()
+    APP.run(port=8000)
