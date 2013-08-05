@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import flask
+import os
 
 # Create the application.
 APP = flask.Flask(__name__)
@@ -9,18 +10,16 @@ APP = flask.Flask(__name__)
 def index():
     """ Displays the index page accessible at '/'
     """
-    return flask.render_template('index.html')
+    logs = os.listdir('./posts')
+    return flask.render_template('index.html', logs=logs)
 
-@APP.route('/list')
-def listdir():
-    folders = os.listdir('../posts')
-    return flask.render_template('list.html', folders=folders)
-
-@APP.route('/hello/<name>/')
-def hello(name):
+@APP.route('/list/<json>/')
+def list(json):
     """ Displays the page greets who ever comes to visit it.
     """
-    return flask.render_template('hello.html', name=name)
+    with open('./posts/' + json) as f:
+        lines = f.readlines()
+    return flask.render_template('list.html', data=lines)
 
 if __name__ == '__main__':
     APP.debug = True

@@ -1,8 +1,11 @@
 {% extends "master.html" %}
 
-{% block title %}Home{% endblock %}
+{% block title %}Index{% endblock %}
 
 {% block body %}
-It works!!
+    {% for log in logs %}
+        <a href="{{ url_for('list', json=log) }}">{{ log }}</a>
+        <br/>
+    {% endfor %}
 {% endblock %}
 

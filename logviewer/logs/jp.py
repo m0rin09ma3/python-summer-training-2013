@@ -12,7 +12,7 @@ def load_json(fname, encoding = 'uft-8'):
 
 def convert_log_to_json(fname):
     list_data = []
-    with open(fname) as f:
+    with open('./posts/' + fname) as f:
         #print f.readlines()
         lines = f.readlines()
     for line in lines:
