@@ -1,0 +1,30 @@
+{% extends "master.html" %}
+
+{% block title %}uptime statistics{% endblock %}
+
+{% block script %}
+        google.load('visualization', '1', {packages: ['annotatedtimeline']});
+
+        google.setOnLoadCallback(drawAnnotatedTimeLine);
+
+        function drawAnnotatedTimeLine() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('datetime', 'Date');
+            data.addColumn('number', '1min');
+            data.addColumn('number', '5mins');
+            data.addColumn('number', '15mins');
+            data.addRows([
+            {% for uptime_data in uptimes %}
+                {{ uptime_data }}
+            {% endfor %}
+            ]);
+
+            var annotatedtimeline = new google.visualization.AnnotatedTimeLine(document.getElementById('xxx'));
+            annotatedtimeline.draw(data, {'displayAnnotations': true});
+        }
+{% endblock %}
+
+{% block body %}
+        <H1>UPTIME</H1>
+        <div id="xxx" style="width: 600px; height: 400px;"></div>
+{% endblock %}
